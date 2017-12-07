@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+	<title>Bond Harper Portfolio</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<header>
+				<div class="col-md-6 col-sm-4 col-xs-4">
+					<img class="img-responsive logo" src="images/compass.png" alt="Portfolio Site Logo">
+				</div>
+
+				<div class="col-md-6 col-sm-8 col-sm-8 text-right text-uppercase">
+					<h1>Bond Harper</h1>
+					<h4>Mapping & Data Analytics</h4>
+				</div>
+			</header>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+			<hr>
+				<img class="img-responsive" src="images/map.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Projects</h2>
+			</div>
+			</div>
+			<div class="row text-center">
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/about.jpg" alt="About" data-toggle="modal" data-target=".about-modal">
+				<h3>About</h3>
+				<p></p>
+			</div>
+			
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/doggerel.png" alt="Doggerel" data-toggle="modal" data-target=".doggerel-modal">
+				<h3>Interactive Graphics</h3>
+				<p><a href="http://doggerel.arup.com/new-frontiers-for-digital-graphics-in-the-built-environment/">Article</a> and 
+				<a href="http://doggerel.arup.com/wp-content/uploads/2016/03/water_yearbook.html">Site</a></p>
+			</div>
+			
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/chsr.png" alt="CHSR Screenshot" data-toggle="modal" data-target=".chsr-modal">
+				<h3>High-Speed Rail</h3>
+				<p><a href="http://www.hsr.ca.gov/docs/programs/statewide_rail/proj_sections/Palmdale_Burbank/Palmdale_Burbank_4_Engineering_051515_v5_no_Dashboard.pdf">CHSR Presentation</a></p>
+			</div>
+			
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/fme.png" alt="FME" data-toggle="modal" data-target=".fme-modal">
+				<h3>Data Manipulation</h3>
+				<p><a href="https://www.safe.com/">FME software</a></p>
+			</div>
+			
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/greeninfra.png" alt="Green Infrastructure" data-toggle="modal" data-target=".greeninfra-modal">
+				<h3>Mobile Data Collection</h3>
+				<p><a href="http://www.nyc.gov/html/dep/html/stormwater/rain-gardens.shtml">NYC Green Infrastructure</a></p>
+			</div>
+			
+			<div class="col-md-4 col-sm-4">
+				<img class="portfolio-img img-responsive" src="images/buyout.png" alt="Buyouts" data-toggle="modal" data-target=".buyout-modal">
+				<h3>Flood Buyouts</h3>
+				<p><a href="http://www.austintexas.gov/department/onion-creek">Onion Creek Flood Buyouts</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="footer">
+		<div class="container">
+			<hr>
+			<p class="text-muted text-center">Be sure to check out my site at <a href="http://bondah.github.io/">http://bondah.github.io/</a></a></p>
+		</div>
+	</footer>
+
+<!-- About Modal -->
+<div class="modal fade about-modal" tabindex="-1" role="dialog" aria-labelledby="aboutModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">About</h4>
+      </div>
+      <div class="modal-body">
+		<p>Hi, my name is Bond Harper. I’m a GIS Integrator currently working at the City of Beverly Hills.</p>
+		<p>To view my site go to <a href="http://bondah.github.io/">http://bondah.github.io/</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Dogggerel Modal -->
+<div class="modal fade doggerel-modal" tabindex="-1" role="dialog" aria-labelledby="doggerelModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Interactive Graphics</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/doggerel.png" alt="Article Screenshot">
+		<hr>
+        <p>This project took a static image and corresponding tables and turnedit into a web graphic that invited the user to explore the data.</p>
+		<p><a href="http://doggerel.arup.com/new-frontiers-for-digital-graphics-in-the-built-environment/">Article</a></p>
+		<p><a href="http://doggerel.arup.com/wp-content/uploads/2016/03/water_yearbook.html">Site</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CHSR Modal -->
+<div class="modal fade chsr-modal" tabindex="-1" role="dialog" aria-labelledby="chsrModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">High-Speed Rail</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/chsr.png" alt="CHSR Screenshot">
+		<hr>
+        <p>I worked on maps and analysis for the Palmdale to Los Angeles section of California High-Speed Rail during my time with Arup. My work inclouded constraints analysis in this section challnged by faults, mountains, and dense urban development.</p><p>I also provided data mangement for Texas High-Speed Rail including limits of disturbance mapping based on design drawings from several engineering disciplines.</p>
+				<p><a href="http://www.hsr.ca.gov/docs/programs/statewide_rail/proj_sections/Palmdale_Burbank/Palmdale_Burbank_4_Engineering_051515_v5_no_Dashboard.pdf">CHSR Presentation (maps by me)</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FME Modal -->
+<div class="modal fade fme-modal" tabindex="-1" role="dialog" aria-labelledby="fmeModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Data Manipulation</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/fme.png" alt="Website Optimization Screenshot">
+		<hr>
+        <p>FME is a powerful software for automating data management, analysis, and conversion. I have experience with FME on a variety of projects including California High-Speed Rail, Texas High-Speed Rail, Edmonton Light Rail, BART, resilience projects, and real estate portfolio management. I have used FME to analyze and convert a variety of data formats. CAD to GIS (and GIS to CAD) automation was my most used automation task with FME.</-></p>
+				<p><a href="https://www.safe.com/">FME software</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Green Infrastructure Modal -->
+<div class="modal fade greeninfra-modal" tabindex="-1" role="dialog" aria-labelledby="greeninfraModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Mobile Data Collection</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/greeninfra.png" alt="Green Infrastructure">
+        <hr>
+		<p>I have set up or assisted with the setup of mobile data collection for a variety of projects including NYC Green Infrastructure, subway station inspection, and bridge inspection. Data layers can be collected on a phone or mobile device and are synchronized to a master database. Electronic collection is faster overall than paper, while also reducing errors and redundancy.</p>
+				<p><a href="http://www.nyc.gov/html/dep/html/stormwater/rain-gardens.shtml">NYC Green Infrastructure</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Buyouts Modal -->
+<div class="modal fade buyout-modal" tabindex="-1" role="dialog" aria-labelledby="buyoutModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Flood Buyouts</h4>
+      </div>
+      <div class="modal-body">
+		<img class="portfolio-img img-responsive" src="images/buyout.png" alt="Buyouts">
+		<hr>
+        <p>I worked on the Onion Creek Flood Buyout program during my time at the City of Austin. My involvement included flood modeling, total station and GPS field surveys, representing the City at public meetings, and mapping.</p><p>I also performed preliminary engineering, survey, and mapping for potential buyout projects on Williamson Creek.</p>
+				<p><a href="http://www.austintexas.gov/department/onion-creek">Onion Creek Flood Buyouts</a></p>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
